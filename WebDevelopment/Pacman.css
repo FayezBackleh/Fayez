@@ -1,0 +1,28 @@
+.row div{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    overflow: visible;
+    margin: 0px;
+
+    padding: 0px;
+
+}
+    .brick{
+    background-color: blue;
+}
+
+#Pacman, #ghost, #Pacman2{
+    position: absolute;
+    justify-content: center;
+}
+
+body{
+    margin: 0px;
+}
+
+.coin{
+    background-image: url("./images/coin.gif");
+    background-size: cover;
+    background-position: center;
+}

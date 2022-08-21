@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<link rel="stylesheet" type="text/css" href="DojoWeather.css">
+
+<body>
+
+    <div class="AllContainer">
+        <div class="navigationBar">
+            <h1 class="nav-title">Dojo Weather</h1>
+            <ul>
+                <li>
+                    <h1 onclick="alert('Loading Weather report')">Burbank</h1>
+                </li>
+                <li>
+                    <h1 onclick="alert('Loading Weather report')">Chicago</h1>
+                </li>
+                <li>
+                    <h1 onclick="alert('Loading Weather report')">Dallas</h1>
+                </li>
+            </ul>
+        </div>
+
+        <div class="bar">
+
+            <h2 class="name">San Jose</h2>
+
+            <h3 class="ShowTempBar">show Temperature in
+                <select name="TempList" onchange="ChooseTemp(this)">
+                    <option>C</option>
+                    <option>F</option>
+                </select>
+            </h3>
+
+        </div>
+        <hr />
+
+        <div class="Days">
+
+            <div class="Today">
+
+                <h3>Today</h3><br><br>
+                <img src="images\some_rain.png" width=160 height=160 alt="some_rain.png">
+                <h4>some rain</h4>
+                <h3 class="MaxTemp" id="temp1">24</h3><span>
+                    <h3 class="MinTemp" id="temp2">18</h3>
+                </span>
+
+            </div>
+            <div class="Tomorrow">
+
+
+                <h3>Tomorrow</h3><br><br>
+                <img src="images\some_sun.png" width=160 height=160 alt="some_sun.png">
+                <h4>some sun</h4>
+                <h3 class="MaxTemp" id="temp3">27</h3><span>
+                    <h3 class="MinTemp" id="temp4">19</h3>
+                </span>
+            </div>
+            <div class="Friday">
+
+
+                <h3>Friday</h3><br><br>
+                <img src="images\some_clouds.png" width=160 height=160 alt="some_clouds">
+                <h4>some clouds </h4>
+                <h3 class="MaxTemp" id="temp5">21</h3><span>
+                    <h3 class="MinTemp" id="temp6">16</h3>
+                </span>
+            </div>
+            <div class="Sunday">
+
+                <h3>Sunday</h3><br><br>
+                <img src="images\some_sun.png" width=160 height=160 alt="some_sun.png">
+                <h4>some sun</h4>
+                <h3 class="MaxTemp" id="temp7">26</h3><span>
+                    <h3 class="MinTemp" id="temp8">21</h3>
+                </span>
+            </div>
+        </div>
+
+        <div id="cookcont" class="CoockiesContainer">
+
+            <div class="Picture">
+                <img src="images\cookie.png" width=80 height=80 alt="cookie.png">
+            </div>
+
+            <div class="Notes">
+                <h4 id="Stop">Stop! Cookies Time</h4>
+                <p>We use cookies (sadly not the editable one) to personalize content and ads
+                    ,to provide social media features and to analyze our traffic
+                </p>
+            </div>
+
+            <div class="Acceptance">
+                <button class="Accept" onclick=HideCookies()>I Accept</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="DojoWeather.js"></script>
+
+</html>

@@ -1,0 +1,38 @@
+h1, p{
+text-align: center;
+}
+
+.container{
+    background-color:rgb(200, 200, 200);
+    width: 800px;
+    overflow: visible;
+    margin-left: 20px;
+}
+
+img{
+    margin: 40px;
+}
+
+.row1 {
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+.row2 {
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.row3 {
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    justify-content: space-evenly;
+}

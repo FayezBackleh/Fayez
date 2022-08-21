@@ -1,0 +1,167 @@
+.mainContainer {
+    background-color: rgb(10, 101, 181);
+    width: 970px;
+    height: 970px;
+}
+
+.logo {
+    display: inline-block;
+    /* border: 2px solid black; */
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.rightBar {
+    display: inline-block;
+    overflow: visible;
+    margin-left: 330px;
+    margin-top: 40px;
+    /* border: 2px solid black; */
+    vertical-align: top;
+}
+
+.searchBar {
+    padding: 10px;
+    background-color: grey;
+    overflow: visible;
+    border-radius: 5%;
+}
+
+input {
+    height: 40px;
+}
+
+.btn {
+    color: white;
+    background-color: rgb(10, 101, 181);
+    font-weight: bold;
+    height: 40px;
+    width: 40px;
+    border: 2px solid white;
+    box-shadow: 3px 3px 0px 0px white;
+
+}
+
+p {
+    color: white;
+    text-align: right;
+    margin: 0px;
+}
+
+.fontSize {
+    color: rgb(181, 181, 0);
+}
+
+.navLinks {
+    display: inline-block;
+    margin-left: 0px;
+    padding: 0px;
+}
+
+.nav {
+    display: inline-block;
+
+}
+
+.navBar {
+    border: 2px solid black;
+    margin-top: 20px;
+    overflow: visible;
+    width: 800px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(114, 142, 180);
+    box-shadow: 3px 3px 0px 0px black;
+}
+
+.tab {
+    color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.middle,
+.bottom {
+    display: flex;
+    align-items: center;
+    /* border: 2px solid white; */
+
+}
+
+
+.bottom {
+    background-color: white;
+}
+
+.list{
+color: yellow;
+} 
+
+.option{
+    color: white;
+}
+
+.option2{
+    color: blue;
+}
+
+.list2{
+    color: black;
+}
+
+.middleLeft,
+.bottomLeft {
+    /* border: 2px solid white; */
+    overflow: visible;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    width: 300px;
+    text-align: center;
+    display: inline-block;
+}
+
+.middleRight {
+    display: inline-block;
+    /* border: 2px solid white; */
+    margin-top: 20px;
+    margin-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+.text1 {
+    margin-bottom: 40px;
+    text-align: center;
+    color: black;
+}
+
+.text2 {
+    margin-bottom: 10px;
+    color: yellow;
+    text-align: center;
+}
+
+.bottomRight {
+    overflow: visible;
+    margin-top: 20px;
+    margin-left: 200px;
+    font-size: 20px;
+    width: 300px;
+    text-align: center;
+    display: inline-block;
+}
+
+.footer {
+    margin-top: 20px;
+    overflow: visible;
+    width: 800px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}

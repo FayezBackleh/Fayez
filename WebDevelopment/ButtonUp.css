@@ -1,0 +1,38 @@
+.container {
+    margin: 40px;
+}
+
+.search,
+.add,
+.create {
+    display: block;
+    margin-bottom: 10px;
+    height: 40px;
+    text-align: center;
+}
+
+.search {
+    background-color: rgb(245, 245, 245);
+    color: rgb(66, 122, 106);
+    font-weight: bold;
+    border-radius: 20px;
+    border: 2px solid rgb(66, 122, 106);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.add {
+    background-color: rgb(66, 122, 106);
+    color: white;
+    border: 2px solid white;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.create {
+    background-color: rgb(60, 133, 251);
+    color: white;
+    font-weight: bold;
+    border: 2px solid black;
+    box-shadow: 0px 3px 3px black;
+}

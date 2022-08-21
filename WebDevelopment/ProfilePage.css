@@ -1,0 +1,130 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p,
+h1,
+h3 {
+    margin: 10px;
+}
+
+.nav-title {
+    display: inline;
+}
+
+ul {
+    display: inline-block;
+    text-align: right;
+}
+
+li {
+    display: inline-block;
+    color: brown;
+    padding: 0px 30px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.wholeContainer {
+    display: inline-block;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #696969;
+    border-radius: 0px;
+    overflow: visible;
+}
+
+.navigationBar {
+    color: white;
+    background-color: black;
+    width: 1000px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: rgb(126, 211, 254);
+    font-weight: bold;
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+}
+
+#person {
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.Container1 {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #696969;
+    border-radius: 0px;
+    overflow: visible;
+    background: linear-gradient(to top, white 0%, white 75%, rgb(61, 96, 160) 75%, rgb(61, 96, 160) 100%);
+}
+
+#gear {
+    display: inline-block;
+}
+
+
+.container2 {
+    margin-top: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #696969;
+    border-radius: 0px;
+    overflow: visible;
+    background: linear-gradient(to top, white 0%, white 75%, silver 75%, silver 100%);
+}
+
+.date {
+    color: rgb(185, 174, 174);
+}
+
+.leftColumn,
+.RightColumn {
+    margin-left: 20px;
+    overflow: auto;
+    display: inline-block;
+}
+
+.Content {
+    display: flex;
+    justify-content: center;
+}
+
+.icon, .icon2 {
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.icon2{
+    margin-right: 5px;
+}
+
+.container3 {
+    margin-top: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #696969;
+    border-radius: 0px;
+    overflow: visible;
+    background: linear-gradient(to top, white 0%, white 80%, silver 80%, silver 100%);
+}
+
+.tag {
+    color: blue;
+    text-decoration: underline;
+    display: inline-block;
+}
+
+.first, .second{
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 0px;
+}

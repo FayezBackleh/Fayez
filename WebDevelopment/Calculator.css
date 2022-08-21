@@ -1,0 +1,51 @@
+* {
+    font-family: monospace;
+}
+
+.AllContainer {
+    display: flex;
+    justify-content: center;
+    overflow: visible;
+    border-radius: 50%;
+}
+
+#calculator {
+
+    /* width: 130px; */
+    overflow: visible;
+    background-color: gray;
+}
+
+button {
+    margin: 2px;
+    font-size: 16px;
+    border-radius: 50%;
+    background-color: darkgray;
+    border-width: 0px;
+    color: white;
+    justify-content: center;
+}
+
+.operator {
+    background-color: orange;
+}
+
+#display {
+    text-align: right;
+    padding-right: 10px;
+    background-color: silver;
+    padding-bottom: 5px;
+}
+
+#equals {
+    width: 80%;
+    border-radius: 30%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
